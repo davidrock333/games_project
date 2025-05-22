@@ -1,0 +1,136 @@
+Sprint 6 : Module 1 Project
+
+Integrated project
+Congratulations! You've officially completed the first part of the course on the interactive platform. It's time to bring everything you've learned so far together in your first integrated project, a real-life analytical case study.
+
+This project will encompass all the skills you have acquired so far:
+
+
+
+
+
+
+
+
+
+When you finish the project, send your work to the project reviewer for evaluation. They'll give you feedback within 48 hours. Use the comments to make changes and then send the new version to the project reviewer.
+
+You may receive even more feedback in the new version. This is completely normal. It's common to go through several cycles of feedback and revisions.
+
+Your project will be considered complete once the project reviewer approves it.
+
+Project description
+You work for the online store Ice, which sells video games worldwide. User and expert reviews, genres, platforms (e.g., Xbox or PlayStation), and historical data on game sales are all available in open sources. You need to identify patterns that determine whether a game is successful or not. This will allow you to identify promising projects and plan advertising campaigns.
+
+In front of you is data dating back to 2016. Let's imagine it's December 2016 and you're planning a campaign for 2017.
+
+The important thing is to gain experience working with data. It doesn't really matter whether you're forecasting 2017 sales based on 2016 data or 2027 sales based on 2026 data.
+
+The dataset contains a "rating" column that stores the ESRB rating for each game. The Entertainment Software Rating Board evaluates a game's content and assigns an age rating of either Teen or Mature.
+
+Instructions for completing the project
+Step 1. Open the data file and review the general information.
+
+File path:
+
+/datasets/games.csv . Download the dataset
+
+Step 2. Prepare the data
+
+Replace the column names (make them lowercase).
+Converts data into the required types.
+Describe the columns in which the data types have been changed and explain why.
+If necessary, choose how to handle missing values:
+Explain why you filled in the missing values ​​the way you did or why you decided to leave them blank.
+Why do you think values ​​are missing? Provide possible explanations.
+Pay attention to the abbreviation TBD: it stands for "to be determined." Specify how you plan to handle these cases.
+Calculate the total sales (the sum of sales across all regions) for each game and place these values ​​in a separate column.
+Step 3. Analyze the data
+
+Look at how many games were released in different years. Is the data for each period significant?
+
+Observa cómo varían las ventas de una plataforma a otra. 
+Elige las plataformas con las mayores ventas totales y construye una distribución basada en los datos de cada año. 
+Busca las plataformas que solían ser populares pero que ahora no tienen ventas. ¿Cuánto tardan generalmente las nuevas plataformas en aparecer y las antiguas en desaparecer?
+Determina para qué período debes tomar datos. Para hacerlo mira tus respuestas a las preguntas anteriores. Los datos deberían permitirte construir un modelo para 2017.
+Trabaja solo con los datos que consideras relevantes. Ignora los datos de años anteriores.
+¿Qué plataformas son líderes en ventas? ¿Cuáles crecen y cuáles se reducen? Elige varias plataformas potencialmente rentables.
+Crea un diagrama de caja para las ventas globales de todos los juegos, desglosados por plataforma. ¿Son significativas las diferencias en las ventas? ¿Qué sucede con las ventas promedio en varias plataformas? Describe tus hallazgos.
+Mira cómo las reseñas de usuarios y profesionales afectan las ventas de una plataforma popular (tu elección). Crea un gráfico de dispersión y calcula la correlación entre las reseñas y las ventas. Saca conclusiones.
+Teniendo en cuenta tus conclusiones compara las ventas de los mismos juegos en otras plataformas.
+Echa un vistazo a la distribución general de los juegos por género. ¿Qué se puede decir de los géneros más rentables? ¿Puedes generalizar acerca de los géneros con ventas altas y bajas?
+Paso 4. Crea un perfil de usuario para cada región
+
+Para cada región (NA, UE, JP) determina:
+
+Las cinco plataformas principales. Describe las variaciones en sus cuotas de mercado de una región a otra.
+Los cinco géneros principales. Explica la diferencia.
+Si las clasificaciones de ESRB afectan a las ventas en regiones individuales.
+Paso 5. Prueba las siguientes hipótesis:
+
+— Las calificaciones promedio de los usuarios para las plataformas Xbox One y PC son las mismas.
+
+— Las calificaciones promedio de los usuarios para los géneros de Acción y Deportes son diferentes.
+
+Establece tu mismo el valor de umbral alfa.
+
+Explica:
+
+— Cómo formulaste las hipótesis nula y alternativa.
+
+— Qué criterio utilizaste para probar las hipótesis y por qué.
+
+Paso 6. Escribe una conclusión general
+
+Formato: Completa la tarea en Jupyter Notebook. Inserta el código de programación en las celdas code y las explicaciones de texto en las celdas markdown. Aplica formato y agrega encabezados.
+
+Descripción de datos
+— Name (Nombre)
+
+— Platform (Plataforma)
+
+— Year_of_Release (Año de lanzamiento)
+
+— Genre (Género) 
+
+— NA_sales (ventas en Norteamérica en millones de dólares estadounidenses) 
+
+— EU_sales (ventas en Europa en millones de dólares estadounidenses) 
+
+— JP_sales (sales in Japan in millions of US dollars)
+
+— Other_sales (sales in other countries in millions of US dollars)
+
+— Critic_Score (maximum of 100)
+
+— User_Score (maximum of 10)
+
+— Rating (ESRB)
+
+Data for 2016 may be incomplete.
+
+How will my project be evaluated?
+Please read these project evaluation criteria carefully before starting work.
+
+Here's what project reviewers look for when evaluating your project:
+
+How would you describe the problems identified in the data?
+How do you prepare a dataset for analysis?
+How do you create distribution charts and how do you explain them?
+How do you calculate standard deviation and variance?
+Do you formulate alternative and null hypotheses?
+What methods do you apply when testing them?
+Do you explain the results of your hypothesis tests?
+Do you follow the project structure and keep your code organized and understandable?
+What conclusions do you reach?
+Have you left clear and relevant comments at each step?
+Everything you need to complete this project is found in the handouts and chapter summaries above.
+
+Good luck!
+
+Let's go!
+Or create the project on your computer and upload it when you're done.
+
+Upload and deliver
+Following
+What did you think of the project?
